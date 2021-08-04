@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="header">
+      <h2>Create Account</h2>
+    </div>
+
+    <form id="form" action="index.html" method="post">
+      <div class="form-control">
+        <label for="username">User name</label>
+        <input id="username" type="text" name="username" value="" placeholder="Username">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email" value="" placeholder="Email">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" value="" placeholder="Password">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password2">Confirm Password</label>
+        <input id="password2" type="password" name="password2" value="" placeholder="Confirm Password">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>error message</small>
+      </div>
+
+      <button type="submit" name="button">SUBMIT</button>
+    </form>
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
